@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PublishableKey</key>
+    <string>pk_test_51SM2zX2OWHrqbqx8GQ7iW5QuzPSv4OaLRWhNDls0CLDZqIQUeVlyBWOEzPN61rsp6XvCxVfyRRd2Lb0eJ9n20rTx00yqxYEE1q</string>
+    <key>NetlifyFunctionURL</key>
+    <string>https://your-site.netlify.app/.netlify/functions/create-payment-intent</string>
+</dict>
+</plist>
