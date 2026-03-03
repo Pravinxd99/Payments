@@ -7,10 +7,16 @@
 
 import Foundation
 protocol Login {
-    func createNewuser ()
-    func autoLogin()
+
+func createNewuser ()
+    func forgotPassword()
+    func logOut()
 }
 
 extension Login {
     
+    
+    func login(){
+        
+    }
 }
