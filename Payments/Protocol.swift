@@ -7,10 +7,14 @@
 
 import Foundation
 protocol Login {
-    func createNewuser ()
+
+func createNewuser ()
     func forgotPassword()
 }
 
 extension Login {
     
+
+    func login()
+
 }
