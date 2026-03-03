@@ -10,6 +10,7 @@ protocol Login {
 
 func createNewuser ()
     func forgotPassword()
+    func logOut()
 }
 
 extension Login {
