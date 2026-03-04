@@ -19,11 +19,12 @@ struct ContentView: View {
                 VStack {
                     Text(item.description)
                 }
-            List {
-                
+                List {
+                    
+                }
             }
+            .padding()
         }
-        .padding()
     }
 }
 
