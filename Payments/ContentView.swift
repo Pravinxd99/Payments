@@ -19,6 +19,8 @@ struct ContentView: View {
                 VStack {
                     Text(item.description)
                 }
+            List {
+                
             }
         }
         .padding()
