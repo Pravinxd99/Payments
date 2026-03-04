@@ -21,4 +21,7 @@ extension Login {
     func login(){
         
     }
+    func changePassword() {
+        
+    }
 }
