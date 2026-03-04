@@ -15,7 +15,9 @@ func createNewuser ()
 
 extension Login {
     
-    
+    func autoLogin() {
+        
+    }
     func login(){
         
     }
