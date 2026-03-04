@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    var array :[String] = ["Praveen","Pravin"]
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            ForEach(array , id: \.self) { item in
+                VStack {
+                    Text(item.description)
+                }
+                List {
+                    
+                }
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
