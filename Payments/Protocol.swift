@@ -11,6 +11,8 @@ protocol Login {
 func createNewuser ()
     func forgotPassword()
     func logOut()
+    func currentUserDetailsFromFB()
+    func saveCurrentUserDetailsInFB()
 }
 
 extension Login {
