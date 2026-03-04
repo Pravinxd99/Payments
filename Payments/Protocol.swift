@@ -12,4 +12,14 @@ protocol Login {
 
 extension Login {
     
+    func autoLogin() {
+        
+    }
+    func login(){
+        
+    }
+    func changePassword() {
+        
+    }
+
 }
