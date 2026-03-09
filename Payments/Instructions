@@ -1,2 +1,3 @@
 HH -> Netlify -> Stripe
 Put keys in netlify env variables
+added new targets 

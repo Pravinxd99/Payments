@@ -13,6 +13,7 @@ func createNewuser ()
     func logOut()
     func currentUserDetailsFromFB()
     func saveCurrentUserDetailsInFB()
+    func deleteAccount()
 }
 
 extension Login {
