@@ -19,16 +19,6 @@
 		6EFBDC872F5B660400B73EFB /* PaymentsFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentsFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		6EFBDC962F5B66B200B73EFB /* Exceptions for "PaymentsFit" folder in "PaymentsFit" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 6EFBDC862F5B660400B73EFB /* PaymentsFit */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6EC59E6E2EDEB66200A38ABB /* Payments */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -37,9 +27,6 @@
 		};
 		6EFBDC882F5B660400B73EFB /* PaymentsFit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				6EFBDC962F5B66B200B73EFB /* Exceptions for "PaymentsFit" folder in "PaymentsFit" target */,
-			);
 			path = PaymentsFit;
 			sourceTree = "<group>";
 		};
