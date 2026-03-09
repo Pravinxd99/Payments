@@ -21,7 +21,7 @@ struct ContentView: View {
                 }
                 List {
                     Text("Praveen")
-                    Text("enhancements praveen2")
+                    Text("enhancements Praveen")
                 }
             }
             .padding()
