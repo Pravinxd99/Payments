@@ -15,6 +15,7 @@ func createNewuser ()
     func saveCurrentUserDetailsInFB()
     func deleteAccount()
     func getCodeForForgotPassword()
+    func disableAccount ()
 }
 
 extension Login {
