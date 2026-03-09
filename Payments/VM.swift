@@ -14,10 +14,11 @@ class VM {
 
     
 
-    func logout () {
-    }
+       func logout () {
+       }
         func login () {
         }
+    
         
     
 
