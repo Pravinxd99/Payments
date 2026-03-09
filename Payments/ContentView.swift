@@ -23,7 +23,7 @@ struct ContentView: View {
                     
                 }
             }
-            .padding()
+            .padding(5)
         }
     }
 }
