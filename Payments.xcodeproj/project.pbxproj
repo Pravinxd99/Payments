@@ -16,12 +16,18 @@
 
 /* Begin PBXFileReference section */
 		6EC59E6C2EDEB66200A38ABB /* Payments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Payments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFBDC872F5B660400B73EFB /* PaymentsFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentsFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6EC59E6E2EDEB66200A38ABB /* Payments */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Payments;
+			sourceTree = "<group>";
+		};
+		6EFBDC882F5B660400B73EFB /* PaymentsFit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PaymentsFit;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -39,6 +45,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6EFBDC842F5B660400B73EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -46,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				6EC59E6E2EDEB66200A38ABB /* Payments */,
+				6EFBDC882F5B660400B73EFB /* PaymentsFit */,
 				6EC59E6D2EDEB66200A38ABB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				6EC59E6C2EDEB66200A38ABB /* Payments.app */,
+				6EFBDC872F5B660400B73EFB /* PaymentsFit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,6 +103,28 @@
 			productReference = 6EC59E6C2EDEB66200A38ABB /* Payments.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6EFBDC862F5B660400B73EFB /* PaymentsFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EFBDC942F5B660A00B73EFB /* Build configuration list for PBXNativeTarget "PaymentsFit" */;
+			buildPhases = (
+				6EFBDC832F5B660400B73EFB /* Sources */,
+				6EFBDC842F5B660400B73EFB /* Frameworks */,
+				6EFBDC852F5B660400B73EFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6EFBDC882F5B660400B73EFB /* PaymentsFit */,
+			);
+			name = PaymentsFit;
+			packageProductDependencies = (
+			);
+			productName = PaymentsFit;
+			productReference = 6EFBDC872F5B660400B73EFB /* PaymentsFit.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +136,9 @@
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					6EC59E6B2EDEB66200A38ABB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					6EFBDC862F5B660400B73EFB = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
@@ -121,6 +161,7 @@
 			projectRoot = "";
 			targets = (
 				6EC59E6B2EDEB66200A38ABB /* Payments */,
+				6EFBDC862F5B660400B73EFB /* PaymentsFit */,
 			);
 		};
 /* End PBXProject section */
@@ -133,10 +174,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6EFBDC852F5B660400B73EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6EC59E682EDEB66200A38ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFBDC832F5B660400B73EFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,6 +378,67 @@
 			};
 			name = Release;
 		};
+		6EFBDC922F5B660A00B73EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_BASE_URL = "";
+				"APP_BASE_URL[arch=*]" = "https://car-fleet-management.herokuapp.com/cars";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PaymentsFit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PaymentsFit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.PaymentsFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EFBDC932F5B660A00B73EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_BASE_URL = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PaymentsFit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PaymentsFit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.PaymentsFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -340,6 +456,15 @@
 			buildConfigurations = (
 				6EC59E7B2EDEB66400A38ABB /* Debug */,
 				6EC59E7C2EDEB66400A38ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EFBDC942F5B660A00B73EFB /* Build configuration list for PBXNativeTarget "PaymentsFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFBDC922F5B660A00B73EFB /* Debug */,
+				6EFBDC932F5B660A00B73EFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
