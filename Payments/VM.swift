@@ -9,8 +9,8 @@ import Foundation
 @Observable
 class VM {
     
-    @Published var currentUser : String?
-    @Published var userState : String?
+     var currentUser : String?
+     var userState : String?
 
     
 
