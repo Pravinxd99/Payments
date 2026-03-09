@@ -11,6 +11,7 @@ class VM {
     
     @Published var currentUser : String?
     @Published var userState : String?
+
     
 
     func logout () {
@@ -19,4 +20,5 @@ class VM {
         }
         
     
+
 }
